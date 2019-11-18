@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MovieDetailCell" customModule="veryCreativeTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwb-FD-Giv">
+                    <rect key="frame" x="20" y="48" width="394" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="L48-KU-SxZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkX-3g-T2g">
+                    <rect key="frame" x="20" y="96" width="394" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JCf-4o-L1w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBE-l3-UXZ">
+                    <rect key="frame" x="20" y="144" width="394" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="QCX-bi-fQ2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFA-D7-heP">
+                    <rect key="frame" x="20" y="192" width="394" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="EsI-aI-mx3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCx-PF-DMX">
+                    <rect key="frame" x="20" y="240" width="394" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="qj5-yh-Xjb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Hwb-FD-Giv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="1fd-OI-2TO"/>
+                <constraint firstItem="tkX-3g-T2g" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="2Ky-vn-O7H"/>
+                <constraint firstItem="WBE-l3-UXZ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="5UH-fq-aE7"/>
+                <constraint firstItem="YFA-D7-heP" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="6dh-dQ-tsY"/>
+                <constraint firstItem="uCx-PF-DMX" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ESP-kA-yLi"/>
+                <constraint firstItem="WBE-l3-UXZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Hex-b0-cmb"/>
+                <constraint firstItem="WBE-l3-UXZ" firstAttribute="top" secondItem="tkX-3g-T2g" secondAttribute="bottom" constant="8" id="Jik-6x-LOL"/>
+                <constraint firstItem="YFA-D7-heP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="LNu-hR-EJ2"/>
+                <constraint firstItem="Hwb-FD-Giv" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="XKJ-mS-oGl"/>
+                <constraint firstItem="uCx-PF-DMX" firstAttribute="top" secondItem="YFA-D7-heP" secondAttribute="bottom" constant="8" id="Xnj-07-A4X"/>
+                <constraint firstItem="YFA-D7-heP" firstAttribute="top" secondItem="WBE-l3-UXZ" secondAttribute="bottom" constant="8" id="Ye9-HX-e8F"/>
+                <constraint firstItem="uCx-PF-DMX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="q1B-V7-jNh"/>
+                <constraint firstItem="tkX-3g-T2g" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="rbO-eU-i9G"/>
+                <constraint firstItem="tkX-3g-T2g" firstAttribute="top" secondItem="Hwb-FD-Giv" secondAttribute="bottom" constant="8" id="t2R-0B-H20"/>
+                <constraint firstItem="Hwb-FD-Giv" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="4" id="w8V-1m-FUd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="adultLabel" destination="uCx-PF-DMX" id="0Vg-aP-sh4"/>
+                <outlet property="castLabel" destination="YFA-D7-heP" id="kfe-JA-ebV"/>
+                <outlet property="durationLabel" destination="Hwb-FD-Giv" id="mi1-2e-Vd1"/>
+                <outlet property="genreLabel" destination="WBE-l3-UXZ" id="YMi-4o-GoB"/>
+                <outlet property="taglineLabel" destination="tkX-3g-T2g" id="F6N-T9-dPp"/>
+            </connections>
+            <point key="canvasLocation" x="366.66666666666669" y="251.78571428571428"/>
+        </view>
+    </objects>
+</document>
